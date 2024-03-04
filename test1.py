@@ -12,8 +12,8 @@ def lcm(x, y):
     return (x * y) // gcd(x, y)
 
 
-num1 = -12
-num2 = 0
+num1 = 17
+num2 = 32
 
 print("Числа:", num1, "і", num2)
 print("НСД:", gcd(num1, num2))

@@ -14,6 +14,9 @@ class MyTest(unittest.TestCase):
         result = test1.gcd(18,34)
         self.assertEqual(result, 2)
 
+        result = test1.gcd(17, 32)
+        self.assertEqual(result, 1)
+
     def test_lcm(self):
 
         result = test1.lcm(12, 18)
